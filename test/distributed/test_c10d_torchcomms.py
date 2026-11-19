@@ -11,9 +11,9 @@ import torch.distributed.distributed_c10d as c10d
 from torch.distributed.distributed_c10d import _TORCHCOMM_AVAILABLE
 from torch.testing._internal.common_device_type import (
     instantiate_device_type_tests,
-    onlyCUDA,
     onlyAccelerator,
     onlyCPU,
+    onlyCUDA,
     skipXPUIf,
 )
 from torch.testing._internal.common_distributed import C10dTorchCommsTestBase
